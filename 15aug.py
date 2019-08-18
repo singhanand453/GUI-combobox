@@ -18,7 +18,7 @@ threevar.set(True)
 one = ttk.Checkbutton(content, text="One", variable=onevar, onvalue=True)
 two = ttk.Checkbutton(content, text="Two", variable=twovar, onvalue=True)
 three = ttk.Checkbutton(content, text="Three", variable=threevar, onvalue=True)
-ok = ttk.Button(content, text="Okay")
+ok = ttk.Button(content, text="O-kay")
 cancel = ttk.Button(content, text="Cancel")
 
 content.grid(column=0, row=0)
