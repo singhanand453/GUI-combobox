@@ -4,8 +4,8 @@ from tkinter import ttk
 root = Tk()
 
 content = ttk.Frame(root)
-frame = ttk.Frame(content, borderwidth=5, relief="sunken", width=200, height=100)
-namelbl = ttk.Label(content, text="Name")
+frame = ttk.Frame(content, borderwidth=4, relief="sunken", width=202, height=101)
+namelbl = ttk.Label(content, text="NAME")
 name = ttk.Entry(content)
 
 onevar = BooleanVar()
@@ -15,9 +15,9 @@ onevar.set(True)
 twovar.set(False)
 threevar.set(True)
 
-one = ttk.Checkbutton(content, text="One", variable=onevar, onvalue=True)
-two = ttk.Checkbutton(content, text="Two", variable=twovar, onvalue=True)
-three = ttk.Checkbutton(content, text="Three", variable=threevar, onvalue=True)
+one = ttk.Checkbutton(content, text="ONE", variable=onevar, onvalue=True)
+two = ttk.Checkbutton(content, text="TWO", variable=twovar, onvalue=True)
+three = ttk.Checkbutton(content, text="THREE", variable=threevar, onvalue=True)
 ok = ttk.Button(content, text="O-kay")
 cancel = ttk.Button(content, text="Cancel")
 
