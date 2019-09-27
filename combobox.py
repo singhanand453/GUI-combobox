@@ -12,7 +12,7 @@ entry.grid(row=0,column=2,pady="2",ipady="1")
 label=Label(window,text="select your  city : ")
 label.grid(row=2,column=1,pady="1")
 
-combobox=Combobox(window,state="readonly",values=("noida","gonda","lucknow","agra","delhi"),background="gray")
+combobox=Combobox(window,state="readonly",values=("noida","Agra","lucknow","agra","delhi"),background="gray")
 combobox.grid(row=2,column=2,pady="2",ipady="1")
 def submit_button():
     messagebox.showinfo("Mess-age","Your city: "+combobox.get())
