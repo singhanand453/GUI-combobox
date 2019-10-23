@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter.ttk import *
 from tkinter import messagebox
 window=Tk()
-window.geometry("400x300")
+window.geometry("500x400")
 window.title("combobox")
 label1=Label(window,text="enter your name : ")
 label1.grid(row=0,column=1,pady="2")
